@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import {
@@ -19,7 +20,6 @@ const MobileNav = ({ user }: MobileNavProps) => {
   return (
     <section className="w-fulll max-w-[264px]">
       <Sheet>
-
         <SheetTrigger>
           <Image
             src="/icons/hamburger.svg"
@@ -49,9 +49,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
           <div className="mobilenav-sheet">
             <SheetClose asChild>
               <nav className="flex h-full flex-col gap-6 pt-16 text-white">
-
                 {sidebarLinks.map((item) => {
-
                   const isActive =
                     pathname === item.route ||
                     pathname.startsWith(`${item.route}/`);
@@ -85,7 +83,6 @@ const MobileNav = ({ user }: MobileNavProps) => {
                     </SheetClose>
                   );
                 })}
-                
                 USER
               </nav>
             </SheetClose>
