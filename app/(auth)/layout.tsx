@@ -1,4 +1,3 @@
-export const dynamic = "force-dynamic";
 import Image from "next/image";
 
 export default function RootLayout({
@@ -11,10 +10,13 @@ export default function RootLayout({
       {children}
       <div className="auth-asset">
         <div>
-          <Image src="/icons/auth-image.svg"
-          alt="Auth- image"
-          width={700}
-          height={700}/>
+          <Image
+            src="/icons/auth-image.svg"
+            alt="Auth image"
+            width={500}
+            height={500}
+            className="rounded-l-xl object-contain"
+          />
         </div>
       </div>
     </main>
