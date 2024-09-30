@@ -11,7 +11,7 @@ const BankCard = ({
   showBalance = true,
 }: CreditCardProps) => {
 
-  console.log("account?.sharableId**************** " + account?.sharaebleId);
+  
   return (
     <div className="flex flex-col">
       <Link

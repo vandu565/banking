@@ -9,8 +9,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
-import {
-  Form} from "@/components/ui/form";
+import { Form } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import CustomInput from "./CustomInput";
 import { authFormSchema } from "@/lib/utils";
@@ -55,15 +54,11 @@ const AuthForm = ({ type }: { type: string }) => {
           email: data.email,
           password: data.password,
         };
-       console.log("calling signup************************************");
+        
         const newUser = await signUp(userData);
-         console.log("after signup************************************");
+        
 
         setUser(newUser);
-        console.log(
-          "newUser************************************" +
-            JSON.stringify(newUser)
-        );
         
       }
 
@@ -73,7 +68,10 @@ const AuthForm = ({ type }: { type: string }) => {
           password: data.password,
         });
 
-        console.log("response************************************" + JSON.stringify(response));
+        console.log(
+          "response************************************" +
+            JSON.stringify(response)
+        );
         if (response) router.push("/");
       }
     } catch (error) {
@@ -88,13 +86,13 @@ const AuthForm = ({ type }: { type: string }) => {
       <header className="flex flex-col gap-5 md:gap-8">
         <Link href="/" className="cursor-pointer flex items-center gap-1">
           <Image
-            src="/icons/logo.svg"
-            width={34}
-            height={34}
-            alt="Horizon logo"
+            src="/icons/logo.png"
+            width={80}
+            height={80}
+            alt="Finity logo"
           />
           <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
-            Horizon
+            Finity
           </h1>
         </Link>
 

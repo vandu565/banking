@@ -18,8 +18,7 @@ const Home = async ({ searchParams: { id, page } }: SearchParamProps) => {
   const appwriteItemId = (id as string) || accountsData[0]?.appwriteItemId;
 
   const account = await getAccount({ appwriteItemId });
-  console.log("account*****************" + account);
-  console.log("account?.transactions*****************" + account?.transactions);
+  
 
   return (
     <section className="home">
