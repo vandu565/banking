@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Horizon
 
-## Getting Started
+**Horizon** is a financial SaaS platform built with Next.js that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and helps manage their finances all in one place.
 
-First, run the development server:
+## ⚙️ Tech Stack
+- **Next.js**
+- **TypeScript**
+- **Appwrite**
+- **Plaid**
+- **Dwolla**
+- **React Hook Form**
+- **Zod**
+- **TailwindCSS**
+- **Chart.js**
+- **ShadCN**
+
+## 🔋 Features
+- **👉 Authentication:** Ultra-secure SSR authentication with proper validations and authorization.
+- **👉 Connect Banks:** Integrates with Plaid for linking multiple bank accounts.
+- **👉 Home Page:** Displays an overview of user accounts, including total balance, recent transactions, and spending by category.
+- **👉 My Banks:** Shows a complete list of all connected banks with respective balances and account details.
+- **👉 Transaction History:** Pagination and filtering options for viewing transaction history across different banks.
+- **👉 Real-time Updates:** Reflects changes across all relevant pages when connecting new bank accounts.
+- **👉 Funds Transfer:** Enables users to transfer funds using Dwolla, requiring necessary fields and recipient bank ID.
+- **👉 Responsiveness:** Adapts seamlessly to various screen sizes and devices, ensuring a consistent user experience across desktop, tablet, and mobile platforms.
+- And many more features, including code architecture and reusability.
+
+## 🤸 Quick Start
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+- Git
+- Node.js
+- npm (Node Package Manager)
+
+### Cloning the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/adrianhajdin/banking.git
+cd banking
