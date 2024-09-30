@@ -1,6 +1,6 @@
-# Horizon
+# Finity
 
-**Horizon** is a financial SaaS platform built with Next.js that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and helps manage their finances all in one place.
+**Finity** is a financial SaaS platform built with Next.js that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and helps manage their finances all in one place.
 
 ## ⚙️ Tech Stack
 - **Next.js**
