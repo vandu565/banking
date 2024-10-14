@@ -30,6 +30,25 @@
 ##  Home Page
 <img width="954" alt="HomePage" src="https://github.com/user-attachments/assets/99d335f5-f58d-4aab-ac39-bc7f3a4d9794">
 
+##  My Bank Page
+<img width="947" alt="My_Bank" src="https://github.com/user-attachments/assets/3a46a144-3573-41b1-9aae-dbbc15db790e">
+
+##  Transaction History
+<img width="938" alt="Transactions_History" src="https://github.com/user-attachments/assets/873d53b3-335e-49b1-a365-f2a6f55e77c2">
+
+##  Transfer Funds
+<img width="942" alt="Transfer_Funds" src="https://github.com/user-attachments/assets/746075a6-c7e6-4d69-8aca-69306277bf46">
+
+##  Sign Up
+<img width="935" alt="SignUP" src="https://github.com/user-attachments/assets/7586478d-d20e-41dd-abcd-b6672c927f38">
+
+## Sign In
+<img width="944" alt="SignIn" src="https://github.com/user-attachments/assets/693c57d1-0075-4bf6-81b9-b86aeeb26a7c">
+
+
+
+
+
 
 ## 🤸 Quick Start
 
