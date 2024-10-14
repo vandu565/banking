@@ -25,6 +25,12 @@
 - **👉 Responsiveness:** Adapts seamlessly to various screen sizes and devices, ensuring a consistent user experience across desktop, tablet, and mobile platforms.
 - And many more features, including code architecture and reusability.
 
+
+
+##  Home Page
+<img width="954" alt="HomePage" src="https://github.com/user-attachments/assets/99d335f5-f58d-4aab-ac39-bc7f3a4d9794">
+
+
 ## 🤸 Quick Start
 
 Follow these steps to set up the project locally on your machine.
